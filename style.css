@@ -290,6 +290,21 @@ img {
     min-height:20rem;
   }
 }
+/* TOP */
+.top{
+  background: var(--primary);
+  padding:5rem 0;
+}
+.top h2{
+  font-size: 3rem;
+  color: var(--light);
+  font-weight: 600;
+}
+.top .top_wrapper{
+  margin-top: 5rem;
+  display: grid;
+  
+}
 /* REPEATBLE PATTERNS */
 :root{
   --primary:#004225;
@@ -313,3 +328,4 @@ img {
   color: var(--primary);
   border: 1px solid var(--primary);
 }
+
